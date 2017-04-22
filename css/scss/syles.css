@@ -20,7 +20,8 @@ h1 {
   position: absolute;
   top: 45%;
   opacity: 1;
-  transition: all 4s ease; }
+  transition: all 4s ease;
+  animation: text 3s ease-in-out infinite; }
 
 svg {
   width: 90vw;
@@ -52,6 +53,13 @@ svg {
 .right-eye {
   animation: right-eye 3s ease-in-out infinite; }
 
+@keyframes text {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-5px); }
+  100% {
+    transform: translatey(0px); } }
 @keyframes float {
   0% {
     transform: translatey(0px); }

@@ -25,7 +25,7 @@ h1 {
 svg {
   width: 90vw;
   position: absolute;
-  bottom: -300px; }
+  bottom: -42%; }
 
 #LeftEar {
   animation: float 3s ease-in-out infinite; }

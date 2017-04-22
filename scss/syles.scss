@@ -37,6 +37,7 @@ $browser-context: 16; // Default
 h1 {
   font-size: em(42);
   color: $teal;
+  padding-left: 5%;
   text-transform: uppercase;
   letter-spacing: .2em;
   font-family: $font-family;
@@ -51,6 +52,7 @@ h1 {
 svg {
   width: 90vw;
   position: absolute;
+  left: -48%;
   bottom: -42%;
 }
 

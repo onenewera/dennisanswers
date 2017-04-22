@@ -4,7 +4,8 @@ body {
   position: relative;
   width: 100vw;
   height: 100vh;
-  text-align: center; }
+  text-align: center;
+  overflow: hidden; }
 
 .show {
   opacity: 1; }
@@ -23,7 +24,8 @@ h1 {
 
 svg {
   width: 90vw;
-  margin: auto; }
+  position: absolute;
+  bottom: -300px; }
 
 #LeftEar {
   animation: float 3s ease-in-out infinite; }

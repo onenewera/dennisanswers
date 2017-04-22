@@ -21,6 +21,7 @@ body {
   width: 100vw;
   height: 100vh;
   text-align: center;
+  overflow: hidden;
 }
 
 .show {
@@ -44,12 +45,12 @@ h1 {
   top: 45%;
   opacity: 1;
   transition: all 4s ease;
-
 }
 
 svg {
   width: 90vw;
-  margin: auto;
+  position: absolute;
+  bottom: -300px;
 }
 
 #LeftEar {
